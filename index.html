@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/style.css">
+    <title>Ocio al vento!</title>
+</head>
+
+<body class="soleggiato">
+
+    <!-- NAVBAR -->
+    <div class="container-fluid min-h-min mt-5">
+        <nav class="flex items-center">
+            <img src="/media/clouds-and-sun.png" class="h-24 w-24 py-1 ms-32" alt="logoNav">
+            <div class="w-full flex justify-start">
+                <ul class="flex w-6/12  justify-end h-8">
+                    <li class="h-full me-10"><a href="#">Home</a></li>
+                    <li class="h-full ms-10"><a href="">Controlla la tua città</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- FINE NAVBAR -->
+
+
+    <!-- MAIN & CARDS-->
+    <div class="container mx-auto w-6/12 min-h-screen">
+
+        <div class="flex justify-center pt-10 w-full">
+
+            <div class="flex flex-col items-center rounded-lg shadow-2xl md:flex-row md:max-w-xl w-full mt-5 backdrop-blur">
+                <img class="rounded-t-lg md:h-auto md:w-2/12 md:rounded-none md:rounded-s-lg ms-2"
+                    src="media/clouds-and-sun.png" alt="cardImg">
+                <div class="flex flex-col justify-between p-4 leading-normal w-full">
+                    <div class="flex w-full justify-between pe-5">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Paese, Città, Stato</h5>
+                        <h5>NN°</h5>
+                    </div>
+                    
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 w-full">clima</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- FINE MAIN & CARDS-->
+
+</body>
+
+</html>

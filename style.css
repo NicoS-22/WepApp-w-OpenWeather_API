@@ -1,0 +1,27 @@
+*{
+    font-family: 'Times New Roman', Times, sans-serif;
+}
+
+
+/* SFONDI CLIMA */
+.soleggiato{
+    background-image: url(media/climaSoleggiato.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nuvoloso{
+    background-image: url(media/climaNuvoloso.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.temporale{
+    background-image: url(media/climaTemporale.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* FINE SFONDI CLIMA */
